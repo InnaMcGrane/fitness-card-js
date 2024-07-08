@@ -1,0 +1,53 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.card-list {
+  max-width: 300px;
+  background: rgb(199, 199, 199);
+  margin: 30px;
+  padding: 10px;
+}
+
+.fitness-card {
+  padding: 10px;
+  background-color: white;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  /* display: flex;
+  justify-content: space-between;
+	align-items: center; */
+}
+.fitness-card__top{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 5px;
+}
+.fitness-card__bottom{
+    display: flex;
+    justify-content:space-around;
+}
+
+.fitness-card--favorite{
+  background-color: aquamarine;
+}
+
+.fitness-card--intencity-1 {
+  border-bottom: 3px solid green;
+}
+
+.fitness-card--intencity-2 {
+  border-bottom: 1px solid rgb(181, 221, 0);
+}
+
+.fitness-card--intencity-3 {
+  border-bottom: 1px solid rgb(241, 62, 7);
+}
+
+.fitness-card--finish {
+  color: rgb(104, 104, 104);
+  background-color: rgb(65, 65, 65);
+}
